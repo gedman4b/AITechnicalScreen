@@ -65,9 +65,10 @@ Here’s a sample dataset of questions and answers about Thoughtful AI’s Agent
 3. **Robustness**: The code includes error handling for invalid or unexpected inputs. It gracefully handles scenarios where no search results are found.
 
 ### Run Code
- - if you don't have the required python libraries:
+ - if you don't have the required Python libraries:
  - download ai_agent.py and requirements.txt.
+ - Ensure you have your OpenAI API Key set in your environment variables.
  - run: ```pip install -r requirements.txt```
  - then run: ```streamlit run ai_agent.py```
  - enter your question in the text box, hit enter, and see the response.
- - Note: as per the requirement, the code compares the exact text of the user's question with the text from the predefined data.
+ Just to let you know, the code compares the exact text of the user's question with the text from the predefined data.
